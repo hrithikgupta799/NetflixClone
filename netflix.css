@@ -1,0 +1,742 @@
+body{
+    background-image: url(./image/netflix\ header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0px;
+}
+hr{
+    height: 2px;
+    background-color: grey;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+header #left{
+    margin-top: 2rem;
+}
+ header #right{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    position: relative;
+ }
+header #right select{
+    background-color: rgba(0, 0, 0, 0.507);
+    border: 2px solid white;  
+    padding: 0.3rem 0.4rem 0.7rem 2rem;
+    color: white;
+    border-radius: 5px;
+}
+header #right select option{
+    background-color: blue;
+}
+header #right .fa-solid.fa-globe{
+    color: white;
+    position: absolute;
+    top:20%;
+    left: 4%;
+}
+header #right #sign{
+    background-color: red;
+    border: 1px solid white;
+    height: 2rem;
+    width: 5rem;
+    color: white;
+    border-radius: 5px;
+}
+header #right select #eng,#hindi
+{background-color: white;}
+#first h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 7rem 50px 0px 20px;
+}
+#first p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+#first input{
+    background-color: rgba(0, 0, 0, 0.425);
+    border: 2px solid white;
+    width: 33%;
+    height: 40px;
+    color: white;
+    margin: 0px 30px 0px 350px;
+}
+#first button{
+    width: 13%;
+    height: 50px;
+    background-color: rgb(196, 6, 6);
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 31rem;
+}
+#enjoy{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 0rem;
+    padding: 3rem;
+}
+#enjoy div{
+    width: 45%;
+    margin: auto;
+}
+#enjoy #smart h1{
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+}
+#enjoy #smart p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+#enjoy #tv {
+    position: relative;
+}
+#enjoy #tv img{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    z-index: 2;
+}
+#enjoy #tv video{
+    position: absolute;   
+    top: 65px;
+    left: 53px;
+    width: 73%;
+    margin: 10px 10px;
+    z-index: 1;
+}
+#download{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    /* border-bottom: 5px solid wheat; */
+}
+#download #girl #offline{
+    width: 38%;
+}
+#download #girl #ele{
+    width: 100%;   
+}
+#download #girl{
+    position: relative;
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(174,152,152);
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    bottom: 5%;
+    left:15%;
+    background-color: black;
+}
+#box #strange{
+    display: flex;
+    
+    width:70%;
+    align-items: center;
+    gap: 1rem;
+}
+#box #strange #photo{
+    width: 17%;
+}
+#box #strange img{
+    width: 100%;
+}
+#box #strange h3{
+    color: white;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+#box #strange p{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+#box #gif{
+    width: 15%;
+   
+}
+#box #gif img{
+    width:100%;
+    align-items: center;
+}
+#download #offline h1{
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#download #offline p{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+#download #girl img{
+    margin: auto;
+}
+#watch{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 3rem;
+}
+#watch div{
+    width: 40%;
+}
+#watch #every h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+#watch #every p{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+#watch #mobie{
+     position: relative;
+}
+#watch #mobile img{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    z-index: 2;
+}
+#watch #mobile video{
+    position: absolute;
+    top: 127rem;
+    left: 67rem;
+    width: 20%;
+    z-index: 1;
+}
+#kids{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 3rem;
+}
+#kids div{
+    width: 40%;
+    margin: auto;
+}
+#kids #image img{
+    margin: auto;
+    width: 100%;
+}
+#kids #profile h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#kids #profile p{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#que{
+    width: 80%;
+    margin: auto;
+}
+#que h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+#que #faq{
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+#que #faq ul{
+    list-style-type: none;
+}
+#que #faq ul li{
+    margin: 0.5rem;
+
+}
+#que #faq ul li .span{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    background-color:rgba(48, 48, 48, 0.616) ;
+    padding: 1rem;
+}
+#que #faq ul li #a1{
+    display: block;
+    font-size: 1.5rem ;
+    margin-top: 2px;
+    padding: 1rem;
+    display: none;
+    position: relative;
+}
+#que #faq ul #q1:hover #a1{
+    display: block;
+    background-color:rgba(48, 48, 48, 0.616) ;
+}
+#que #faq ul li #a2{
+    display: block;
+    font-size: 1.5rem ;
+    margin-top: 2px;
+    padding: 1rem;
+    display: none;
+    position: relative;
+}
+#que #faq ul #q2:hover #a2{
+    display: block;
+    background-color:rgba(48, 48, 48, 0.616) ;
+}
+#que #faq ul li #a3{
+    display: block;
+    font-size: 1.5rem ;
+    margin-top: 2px;
+    padding: 1rem;
+    display: none;
+    position: relative;
+}
+#que #faq ul #q3:hover #a3{
+    display: block;
+    background-color:rgba(48, 48, 48, 0.616) ;
+}
+#que #faq ul li #a4{
+    display: block;
+    font-size: 1.5rem ;
+    margin-top: 2px;
+    padding: 1rem;
+    display: none;
+    position: relative;
+}
+#que #faq ul #q4:hover #a4{
+    display: block;
+    background-color:rgba(48, 48, 48, 0.616) ;
+}
+#que #faq ul li #a5{
+    display: block;
+    font-size: 1.5rem ;
+    margin-top: 2px;
+    padding: 1rem;
+    display: none;
+    position: relative;
+}
+#que #faq ul #q5:hover #a5{
+    display: block;
+    background-color:rgba(48, 48, 48, 0.616) ;
+}
+#que #faq ul li #a6{
+    display: block;
+    font-size: 1.5rem ;
+    margin-top: 2px;
+    padding: 1rem;
+    display: none;
+    position: relative;
+}
+#que #faq ul #q6:hover #a6{
+    display: block;
+    background-color:rgba(48, 48, 48, 0.616) ;
+}
+#que button{
+    width: 13%;
+    height: 50px;
+    background-color: rgb(196, 6, 6);
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 4rem;
+}
+#que input{
+    background-color: rgba(0, 0, 0, 0.425);
+    border: 2px solid white;
+    width: 33%;
+    height: 40px;
+    color: white;
+    margin: 0px 30px 0px 350px;
+}
+footer{
+    width: 80%;
+    margin: auto;
+}
+footer #que{
+    margin: 60px 0 0 0;
+    color: white;
+    font-size: 20px;
+}
+footer #que a{
+    color: white;
+    position: relative;
+}
+footer #down select{
+    background-color: rgba(0, 0, 0, 0.507);
+    border: 2px solid white;  
+    padding: 0.3rem 0.4rem 0.7rem 2rem;
+    color: white;
+    border-radius: 5px;
+}
+footer #down {
+    position: relative;
+}
+footer #down .fa-solid.fa-globe{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 1%;
+}
+header #right select #eng1,#hindi2
+{background-color: white;}
+footer #net{
+    margin-bottom: 60px;
+    color: white;
+    font-size: 20px;
+}
+footer #drop{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+    font-size: 12px;
+}
+footer #drop nav{
+    width: 20%;
+    padding: 0px;
+    margin-right: 50px;
+}
+footer #drop nav li a{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    /* margin-bottom: 1rem; */
+}
+footer #drop nav ul{
+    padding: 0px;
+}
+@media(max-width:600px){
+body{
+    background-image: url(./image/netflix\ header.jpg);
+    background-size: 210%;
+    background-repeat: no-repeat;
+    background-color: black;
+    }
+    hr{
+        height: 2px;
+        background-color: grey;
+        margin: 0;
+    }
+    header{
+       display: flex;
+       justify-content: space-around;
+       text-align: center;
+    }
+    header #left{
+        margin-top: 0px;
+        margin-right: 150px;
+        width: 100%;
+    }
+    header #left img{
+        height: 30px;
+        width: 100px;
+    }
+     header #right{
+        margin-top: 6px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        position: relative;
+     }
+    header #right select{
+        background-color: rgba(0, 0, 0, 0.507);
+        border: 2px solid white;  
+        padding: 0.3rem 0.4rem 0.7rem 2rem;
+        color: white;
+        border-radius: 5px;
+        height: 1.5rem;
+        width: 2rem;
+    }
+    header #right .fa-solid.fa-globe{
+        color: white;
+        position: absolute;
+        top:20%;
+        left: 4%;
+    }
+    header #right #sign{
+        background-color: red;
+        border: 1px solid white;
+        height: 1.5rem;
+        width: 4rem;
+        color: white;
+        border-radius: 5px;
+    }
+    header #right select #eng,#hindi
+    {background-color: white;}
+    #first h1{
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        margin: 4rem 0px 0px 0px;
+    }
+    #first p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        margin: 10px;
+    }
+    #first input{
+      background-color: rgba(0, 0, 0, 0.404);
+      width: 80%;
+      margin: 0px 2rem;
+
+    }
+    #first button{
+        display: block;
+        width: 45%;
+        margin: 20px 7rem;
+    }
+    #enjoy{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    #enjoy div{
+        width: 100%;
+    }
+    #enjoy #smart h1{
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+        color: white;
+        margin-top: 0px;  
+    }
+    #enjoy #smart p{
+        font-size: 1rem;
+        text-align: center;
+        color: white;
+    }
+    #enjoy #tv {
+        position: relative;
+    }
+    #enjoy #tv img{
+        position: relative;
+        width: 100%;
+        margin: auto;
+        z-index: 2;
+    }
+    #enjoy #tv video{
+        position: absolute;   
+        top: 37px;
+        left: 29px;
+        width: 73%;
+        margin: 10px 10px;
+        z-index: 1;
+    }
+    #download{
+        display: block;
+        width: 80%;
+        margin: auto;
+        position: relative;
+    }
+    #download #girl #offline{
+        width: 100%;
+    }
+    #download #girl #ele{
+        width: 100%; }
+    #download #girl{
+            position: relative; }
+    #box{
+                display: flex;
+                justify-content: space-between;
+                border: 2px solid rgb(174,152,152);
+                width: 80%;
+                margin: auto;
+                border-radius: 10px;
+                padding: 5px;
+                position: absolute;
+                bottom: 3%;
+                left:10%;
+                background-color: black;
+            }
+            #box #strange{
+                display: flex;
+                width:70%;
+                align-items: center;
+                gap: 1rem;
+            }
+            #box #strange #photo{
+                width: 20%;
+            }
+            #download #offline h1{
+                font-size: 1.5rem;
+                width: 100%;
+                text-align: center;
+                color: white;
+            }
+            #download #offline p{
+                font-size: 1rem;
+                text-align: center;
+                color: white;
+            }
+    #watch{
+    display: block;
+    width:80%;
+    margin: auto;
+    padding: 0;
+    }
+    #watch div{
+        width: 100%;
+    }
+    #watch #every h1{
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #watch #every p{
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+    }
+    #watch #mobie{
+        position: relative;
+   }
+   #watch #mobile img{
+       width: 100%;
+       z-index: 2;
+   }
+   #watch #mobile video{
+       position: absolute;
+       top: 93rem;
+       left: 5.8rem;
+       width: 51%;
+       z-index: 1;
+   }
+   #kids{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 0rem;
+}
+#kids div{
+    width: 100%;
+
+}
+#kids #image img{
+    margin: auto;
+    width: 100%;
+}
+#kids #profile h1{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#kids #profile p{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+#que #faq ul li .span{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    background-color:rgba(48, 48, 48, 0.616) ;
+    padding: 0.7rem;
+}
+#que #faq ul li #a1{
+    font-size: 1rem ;
+}
+#que #faq ul li #a2{
+    font-size: 1rem ;
+}
+#que #faq ul li #a3{
+    font-size: 1rem ;
+} 
+#que #faq ul li #a4{
+    font-size: 1rem ;
+}
+#que #faq ul li #a5{
+    font-size: 1rem ;
+}
+#que #faq ul li #a6{
+    font-size: 1rem ;
+}
+#que input{
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 80%;
+    margin: 0px 2rem;
+
+  }
+  #que button{
+      display: block;
+      width: 45%;
+      margin: 20px 6rem;
+      font-size: 16px;
+  }
+footer{
+    width: 80%;
+    margin: auto;
+}
+footer #que{
+    margin: 2rem;
+    color: white;
+    font-size: 14px;
+}
+footer #down{
+    margin-top: 12px;
+    font-size: 10px;
+}
+footer #down .fa-solid.fa-globe{
+    color: white;
+    position: absolute;
+    top:368%;
+    left: 15%;
+}
+footer #net{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 14px;
+}
+footer #drop{
+    display: block;
+    width: 100%;
+    margin: 0px;
+    font-size: 6px;
+}
+footer #drop nav ul{
+    width: 100%;
+    padding-top: 0px;
+    margin: 0px;
+}
+footer #drop nav ul li{
+    padding-top: 10px;
+    width: 100%;
+
+}
+/* 
+*/
+}
